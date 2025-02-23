@@ -5,8 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OUFitRecWebApp"
         mc:Ignorable="d"
-        Title="IMPage" Height="450" Width="800">
+        Title="IMPage" Height="830" Width="1280">
     <Grid>
-        
+        <Grid>
+            <!-- IMPage Content -->
+            <Grid x:Name="IMPageContent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <!-- INTRAMURAL SPORTS Text -->
+                <TextBlock x:Name="IntramuralSportsText" Text="INTRAMURAL SPORTS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,362,0,0" 
+                       FontSize="72" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+
+                <!-- JOIN IM SPORTS Button -->
+                <Button x:Name="JIMB" Content="JOIN IM SPORTS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,552,0,0" 
+                    Width="300" Height="60" FontSize="36" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
+
+                <!-- VIEW IM SPORTS Button -->
+                <Button x:Name="VIMB" Content="VIEW IM SPORTS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="802,551,0,0" 
+                    Width="300" Height="60" FontSize="36" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
+            </Grid>
+
+            <!-- IMPageNavTop -->
+            <Grid x:Name="IMPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="100">
+                <!-- IMHomeIcon Button -->
+                <Button x:Name="IMHomeIcon" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+
+                <!-- IMSIB Button -->
+                <Button x:Name="IMSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,0,0,0"/>
+
+                <!-- Sign In Text -->
+                <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0" 
+                       FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
+            </Grid>
+
+            <!-- IMPageBottomNav -->
+            <Grid x:Name="IMPageBottomNav" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="150">
+                <!-- WhiteOULogo -->
+                <Image x:Name="WhiteOULogo" Source="whiteoulogo.png" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+
+                <!-- Fitness + Recreation Text -->
+                <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,740,0,0" 
+                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+
+                <!-- Address Text -->
+                <TextBlock x:Name="AddressText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,767,0,0" 
+                       FontSize="16" Foreground="White" FontFamily="SourceSansPro">
+                <Run Text="1401 Asp Avenue, Room 170"/>
+                <LineBreak/>
+                <Run Text="Norman, OK 73019"/>
+                <LineBreak/>
+                <Run Text="(405) 325-0311"/>
+                </TextBlock>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>

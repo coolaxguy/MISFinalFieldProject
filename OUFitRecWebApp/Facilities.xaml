@@ -5,8 +5,140 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OUFitRecWebApp"
         mc:Ignorable="d"
-        Title="Facilities" Height="450" Width="800">
+        Title="Facilities" Height="1080" Width="1280">
     <Grid>
-        
+        <!-- FacilitiesPage Content -->
+        <Grid x:Name="FacilitiesPageContent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <!-- Background Rectangles -->
+            <Rectangle x:Name="Rectangle1" Fill="LightGray" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="213,190,0,0" Width="774" Height="400"/>
+            <Rectangle x:Name="Rectangle2" Fill="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="213,190,0,0" Width="774" Height="400" Opacity="0.5"/>
+
+            <!-- Locations and Hours Of Operations Text -->
+            <TextBlock x:Name="LocationsText" Text="Locations and Hours Of Operations" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-254,463,0,0" 
+                       FontSize="30" Foreground="White" FontFamily="SourceSansPro"/>
+
+            <!-- Murray Case Sells Swim Complex Text -->
+            <TextBlock x:Name="MurrayCaseText" Text="Murray Case Sells Swim Complex" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-236,586,0,0" 
+                       FontSize="24" Foreground="White" FontFamily="SourceSansPro"/>
+
+            <!-- Recreational Fields Text -->
+            <TextBlock x:Name="RecreationalFieldsText" Text="Recreational Fields" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="247,584,0,0" 
+                       FontSize="25" Foreground="White" FontFamily="SourceSansPro"/>
+
+            <!-- Sarkeys Fitness Center Text -->
+            <TextBlock x:Name="SarkeysFitnessText" Text="Sarkeys Fitness Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="649,586,0,0" 
+                       FontSize="25" Foreground="White" FontFamily="SourceSansPro"/>
+
+            <!-- Murray Case Sells Swim Complex Details -->
+            <TextBlock x:Name="MurrayCaseDetails" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-230,640,0,0" 
+                       FontSize="24" Foreground="Black" FontFamily="SourceSansPro">
+                <Run Text="1701 Asp Ave, Norman, OK 73072"/>
+                <LineBreak/>
+                <Run Text="Email: Fitrec@edu"/>
+                <LineBreak/>
+                <Run Text="Phone: 405-325-3053"/>
+                <LineBreak/>
+                <Run Text="Hours:"/>
+                <LineBreak/>
+                <Run Text="Sunday: 1PM - 6PM"/>
+                <LineBreak/>
+                <Run Text="Monday: 11AM - 5PM"/>
+                <LineBreak/>
+                <Run Text="Tuesday: 11AM - 5PM"/>
+                <LineBreak/>
+                <Run Text="Wednesday: 11AM - 5PM"/>
+                <LineBreak/>
+                <Run Text="Thursday: 11AM - 5PM"/>
+                <LineBreak/>
+                <Run Text="Friday: 11AM - 5PM"/>
+                <LineBreak/>
+                <Run Text="Saturday: 1PM - 5PM"/>
+            </TextBlock>
+
+            <!-- Recreational Fields Details -->
+            <TextBlock x:Name="RecreationalFieldsDetails" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="164,641,0,0" 
+                       FontSize="24" Foreground="Black" FontFamily="SourceSansPro">
+                <Run Text="300 Stinson St, Norman, OK 73072"/>
+                <LineBreak/>
+                <Run Text="Email: Fitrec@edu"/>
+                <LineBreak/>
+                <Run Text="Phone: 405-325-3053"/>
+                <LineBreak/>
+                <Run Text="Hours:"/>
+                <LineBreak/>
+                <Run Text="Sunday:"/>
+                <LineBreak/>
+                <Run Text="Monday:"/>
+                <LineBreak/>
+                <Run Text="Tuesday:"/>
+                <LineBreak/>
+                <Run Text="Wednesday:"/>
+                <LineBreak/>
+                <Run Text="Thursday:"/>
+                <LineBreak/>
+                <Run Text="Friday:"/>
+                <LineBreak/>
+                <Run Text="Saturday:"/>
+            </TextBlock>
+
+            <!-- Sarkeys Fitness Center Details -->
+            <TextBlock x:Name="SarkeysFitnessDetails" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="597,643,0,0" 
+                       FontSize="16" Foreground="Black" FontFamily="SourceSansPro">
+                <Run Text="1401 Asp Ave, Norman, OK 73072"/>
+                <LineBreak/>
+                <Run Text="Email: Fitrec@edu"/>
+                <LineBreak/>
+                <Run Text="Phone: 405-325-3053"/>
+                <LineBreak/>
+                <Run Text="Hours:"/>
+                <LineBreak/>
+                <Run Text="Sunday: 2PM - 9PM"/>
+                <LineBreak/>
+                <Run Text="Monday: 6AM - 11PM"/>
+                <LineBreak/>
+                <Run Text="Tuesday: 6AM - 11PM"/>
+                <LineBreak/>
+                <Run Text="Wednesday: 6AM - 11PM"/>
+                <LineBreak/>
+                <Run Text="Thursday: 6AM - 11PM"/>
+                <LineBreak/>
+                <Run Text="Friday: 6AM - 9PM"/>
+                <LineBreak/>
+                <Run Text="Saturday: 10AM - 6PM"/>
+            </TextBlock>
+        </Grid>
+
+        <!-- FacilitiesPageNavTop -->
+        <Grid x:Name="FacilitiesPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="100">
+            <!-- FHomeIcon Button -->
+            <Button x:Name="FHomeIcon" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+
+            <!-- FSIB Button -->
+            <Button x:Name="FSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,0,0,0"/>
+
+            <!-- Sign In Text -->
+            <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0" 
+                       FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
+        </Grid>
+
+        <!-- FacilitiesPageBottomNav -->
+        <Grid x:Name="FacilitiesPageBottomNav" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="150">
+            <!-- WhiteOULogo -->
+            <Image x:Name="WhiteOULogo" Source="whiteoulogo.png" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+
+            <!-- Fitness + Recreation Text -->
+            <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-215,972,0,0" 
+                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+
+            <!-- Address Text -->
+            <TextBlock x:Name="AddressText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-215,1003,0,0" 
+                       FontSize="16" Foreground="White" FontFamily="SourceSansPro">
+                <Run Text="1401 Asp Avenue, Room 170"/>
+                <LineBreak/>
+                <Run Text="Norman, OK 73019"/>
+                <LineBreak/>
+                <Run Text="(405) 325-0311"/>
+            </TextBlock>
+        </Grid>
     </Grid>
 </Window>

@@ -5,8 +5,88 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OUFitRecWebApp"
         mc:Ignorable="d"
-        Title="FCandFP" Height="450" Width="800">
+        Title="FCandFP" Height="1380" Width="1280">
     <Grid>
-        
+        <Grid>
+            <!-- FitPassPage Content -->
+            <Grid x:Name="FitPassPageContent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <!-- Fit Pass Classes Text -->
+                <TextBlock x:Name="FitPassClassesText" Text="Fit Pass Classes" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="550,114,0,0" 
+                       FontSize="58" FontWeight="Bold" Foreground="#161414" FontFamily="SourceSansPro"/>
+
+                <!-- Select Time Text -->
+                <TextBlock x:Name="SelectTimeText" Text="Select Time: March 17, 2025" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="243,400,0,0" 
+                       FontSize="24" FontWeight="Bold" Foreground="#161414" FontFamily="SourceSansPro"/>
+
+                <!-- Time Slots and Reserve Spot Buttons -->
+                <TextBlock x:Name="TimeSlot1" Text="6:10 AM - 6:55 AM" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,460,0,0" 
+                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+                <Button x:Name="FPB1" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,458,0,0" 
+                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
+
+                <TextBlock x:Name="TimeSlot2" Text="7:00 AM - 7:45 AM" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,560,0,0" 
+                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+                <Button x:Name="FPB2" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,558,0,0" 
+                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
+
+                <TextBlock x:Name="TimeSlot3" Text="8:00 AM - 8:45 AM" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,660,0,0" 
+                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+                <Button x:Name="FPB3" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,658,0,0" 
+                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
+
+                <TextBlock x:Name="TimeSlot4" Text="9:00 AM - 9:45 AM" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,760,0,0" 
+                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+                <Button x:Name="FPB4" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,758,0,0" 
+                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
+
+                <TextBlock x:Name="TimeSlot5" Text="11:00 AM - 11:45 AM" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,860,0,0" 
+                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+                <Button x:Name="FPB5" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,858,0,0" 
+                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
+
+                <TextBlock x:Name="TimeSlot6" Text="12:05 PM - 12:55 PM" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,960,0,0" 
+                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+                <Button x:Name="FPB6" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,958,0,0" 
+                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
+
+                <TextBlock x:Name="TimeSlot7" Text="5:30 PM - 6:15 PM" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,1060,0,0" 
+                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+                <Button x:Name="FPB7" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,1058,0,0" 
+                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
+            </Grid>
+
+            <!-- FitPassPageNavTop -->
+            <Grid x:Name="FitPassPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="100">
+                <!-- FCHomeIcon Button -->
+                <Button x:Name="FCHomeIcon" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+
+                <!-- FCSIB Button -->
+                <Button x:Name="FCSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,0,0,0"/>
+
+                <!-- Sign In Text -->
+                <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0" 
+                       FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
+            </Grid>
+
+            <!-- FitPassPageBottomNav -->
+            <Grid x:Name="FitPassPageBottomNav" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="150">
+                <!-- WhiteOULogo -->
+                <Image x:Name="WhiteOULogo" Source="whiteoulogo.png" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+
+                <!-- Fitness + Recreation Text -->
+                <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,1200,0,0" 
+                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+
+                <!-- Address Text -->
+                <TextBlock x:Name="AddressText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,1227,0,0" 
+                       FontSize="16" Foreground="White" FontFamily="SourceSansPro">
+                <Run Text="1401 Asp Avenue, Room 170"/>
+                <LineBreak/>
+                <Run Text="Norman, OK 73019"/>
+                <LineBreak/>
+                <Run Text="(405) 325-0311"/>
+                </TextBlock>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>

@@ -5,8 +5,92 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OUFitRecWebApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="880" Width="1280">
     <Grid>
-        
+        <!-- MainWindowNavTop -->
+        <Grid x:Name="MainWindowNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="100">
+            <!-- HPHomeIcon Button -->
+            <Button x:Name="HPHomeIcon" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+
+            <!-- HPSIB Button -->
+            <Button x:Name="HPSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,0,0,0"/>
+
+            <!-- Sign In Text -->
+            <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0" 
+                       FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
+        </Grid>
+
+        <!-- MainWindowBottomNav -->
+        <Grid x:Name="MainWindowBottomNav" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="150">
+            <!-- WhiteOULogo -->
+            <Image x:Name="WhiteOULogo" Source="whiteoulogo.png" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+
+            <!-- Fitness + Recreation Text -->
+            <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="192,20,0,0" 
+                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+
+            <!-- Address Text -->
+            <TextBlock x:Name="AddressText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="192,50,0,0" 
+                       FontSize="16" Foreground="White" FontFamily="SourceSansPro">
+                <Run Text="1401 Asp Avenue, Room 170"/>
+                <LineBreak/>
+                <Run Text="Norman, OK 73019"/>
+                <LineBreak/>
+                <Run Text="(405) 325-0311"/>
+            </TextBlock>
+        </Grid>
+
+        <!-- MainWindow -->
+        <Grid x:Name="MainPage" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <!-- HPFE Button -->
+            <Button x:Name="HPFE" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,357,0,0"/>
+
+            <!-- Rectangle Buttons -->
+            <Button x:Name="Rectangle1" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,405,0,0"/>
+            <Button x:Name="Rectangle2" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,504,0,0"/>
+
+            <!-- Fit + Rec Text -->
+            <TextBlock x:Name="FitRecText" Text="Fit + Rec" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,357,0,0" 
+                       FontSize="36" Foreground="White" FontFamily="Roboto Flex"/>
+
+            <!-- Fitness and Recreation Description -->
+            <TextBlock x:Name="FitnessDescription" Text="Fitness and Recreation provides diverse programs, services, and educational opportunities to enhance the lifelong health and wellness of the university community." 
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,405,0,0" FontSize="18" Foreground="White" FontFamily="Roboto Flex" TextWrapping="Wrap" Width="500"/>
+
+            <!-- View Facilities Text -->
+            <TextBlock x:Name="ViewFacilitiesText" Text="View Facilities" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,504,0,0" 
+                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+
+            <!-- HPFPE Button -->
+            <Button x:Name="HPFPE" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1021,736,0,0"/>
+
+            <!-- HPIME Button -->
+            <Button x:Name="HPIME" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="421,736,0,0"/>
+
+            <!-- HPME Button -->
+            <Button x:Name="HPME" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="721,736,0,0"/>
+
+            <!-- INTRAMURAL SPORTS Text -->
+            <TextBlock x:Name="IntramuralSportsText" Text="INTRAMURAL SPORTS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1021,736,0,0" 
+                       FontSize="16" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+
+            <!-- FACILITIES Text -->
+            <TextBlock x:Name="FacilitiesText" Text="FACILITIES" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,736,0,0" 
+                       FontSize="16" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+
+            <!-- MEMBERSHIPS Text -->
+            <TextBlock x:Name="MembershipsText" Text="MEMBERSHIPS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="421,736,0,0" 
+                       FontSize="16" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+
+            <!-- FIT PASS CLASSES Text -->
+            <TextBlock x:Name="FitPassClassesText" Text="FIT PASS CLASSES" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="721,736,0,0" 
+                       FontSize="16" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+
+            <!-- Images -->
+            <Image x:Name="RecPng" Source="recpng.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,736,0,0"/>
+            <Image x:Name="MembershipPng" Source="membership.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="421,736,0,0"/>
+            <Image x:Name="FitClassPng" Source="fitclass.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="721,736,0,0"/>
+            <Image x:Name="ImPng" Source="impng.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1021,736,0,0"/>
+        </Grid>
     </Grid>
 </Window>
