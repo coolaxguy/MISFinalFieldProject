@@ -121,6 +121,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="fitclasspng.webp" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -128,6 +129,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="oufitreclogocrop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="whiteoulogo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fitrec.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recpng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="impng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="member.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="member.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="member-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="rec.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
