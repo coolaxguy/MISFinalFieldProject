@@ -92,11 +92,12 @@
 
             <!-- Fit + Rec Text -->
             <TextBlock HorizontalAlignment="Left" Margin="33,260,0,0" TextWrapping="Wrap" Text="Fit + Rec" VerticalAlignment="Top" FontSize="36" FontWeight="Bold" Background="#00000000" Foreground="White"/>
-            <TextBox HorizontalAlignment="Left" Margin="33,313,0,0" TextWrapping="Wrap" Text="Fitness and Recreation provides diverse programs, services, and educational opportunities to enhance the lifelong health and wellness of the university community." VerticalAlignment="Top" Width="495" Height="110" Background="Transparent" BorderBrush="#00ABADB3" SelectionBrush="#000078D7" Foreground="White" FontSize="20"/>
 
             <!-- Fitness and Recreation Description -->
+            <TextBox HorizontalAlignment="Left" Margin="33,313,0,0" TextWrapping="Wrap" Text="Fitness and Recreation provides diverse programs, services, and educational opportunities to enhance the lifelong health and wellness of the university community." VerticalAlignment="Top" Width="495" Height="110" Background="Transparent" BorderBrush="#00ABADB3" SelectionBrush="#000078D7" Foreground="White" FontSize="20"/>
 
             <!-- View Facilities Text -->
+            <Button Content="View Facilities" HorizontalAlignment="Left" Margin="33,425,0,0" VerticalAlignment="Top" Height="35" Width="160" Background="#FF841617" BorderBrush="#FF841617" Foreground="White" FontWeight="Bold" FontSize="18"/>
 
 
         </Grid>
