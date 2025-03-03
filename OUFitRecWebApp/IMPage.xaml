@@ -40,22 +40,22 @@
             </Grid>
 
             <!-- IMPageBottomNav -->
-            <Grid x:Name="IMPageBottomNav" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="150">
+            <Grid x:Name="IMPageBottomNav" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="90" Background="#FF841617">
                 <!-- WhiteOULogo -->
-                <Image x:Name="WhiteOULogo" Source="whiteoulogo.png" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+                <Image x:Name="HPWhiteOULogo" Source="/whiteoulogo (1).png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,5,0,0" Height="79" Width="73"/>
 
                 <!-- Fitness + Recreation Text -->
-                <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,740,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+                <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,5,0,0" 
+           FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
 
                 <!-- Address Text -->
-                <TextBlock x:Name="AddressText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,767,0,0" 
-                       FontSize="16" Foreground="White" FontFamily="SourceSansPro">
-                <Run Text="1401 Asp Avenue, Room 170"/>
-                <LineBreak/>
-                <Run Text="Norman, OK 73019"/>
-                <LineBreak/>
-                <Run Text="(405) 325-0311"/>
+                <TextBlock x:Name="AddressText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,30,0,0" 
+           FontSize="16" Foreground="White" FontFamily="SourceSansPro">
+    <Run Text="1401 Asp Avenue, Room 170"/>
+    <LineBreak/>
+    <Run Text="Norman, OK 73019"/>
+    <LineBreak/>
+    <Run Text="(405) 325-0311"/>
                 </TextBlock>
             </Grid>
         </Grid>
