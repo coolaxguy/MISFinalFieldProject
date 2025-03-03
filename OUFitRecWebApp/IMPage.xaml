@@ -24,16 +24,19 @@
             </Grid>
 
             <!-- IMPageNavTop -->
-            <Grid x:Name="IMPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="100">
+            <Grid x:Name="IMPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="90" Background="#FF841617">
                 <!-- IMHomeIcon Button -->
-                <Button x:Name="IMHomeIcon" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
-
+                <Button x:Name="IMHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/oufitreclogocrop.png"/>
+                    </Button.Background>
+                </Button>
                 <!-- IMSIB Button -->
-                <Button x:Name="IMSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,0,0,0"/>
+                <Button x:Name="IMSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1100,0,0,0" Height="50" Width="115" Background="White" BorderBrush="White" Foreground="#00000000"/>
 
                 <!-- Sign In Text -->
-                <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0" 
-                       FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
+                <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1118,0,0,0" 
+           FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
             </Grid>
 
             <!-- IMPageBottomNav -->
