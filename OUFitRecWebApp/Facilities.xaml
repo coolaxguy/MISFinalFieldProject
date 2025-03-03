@@ -10,12 +10,14 @@
         <!-- FacilitiesPage Content -->
         <Grid x:Name="FacilitiesPageContent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <!-- Background Rectangles -->
-            <Rectangle x:Name="Rectangle1" Fill="LightGray" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="213,190,0,0" Width="774" Height="400"/>
-            <Rectangle x:Name="Rectangle2" Fill="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="213,190,0,0" Width="774" Height="400" Opacity="0.5"/>
+            <Rectangle x:Name="Rectangle1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,100,0,0" Width="1280" Height="425">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/pool.jpg"/>
+                </Rectangle.Fill>
+            </Rectangle>
 
             <!-- Locations and Hours Of Operations Text -->
-            <TextBlock x:Name="LocationsText" Text="Locations and Hours Of Operations" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-254,463,0,0" 
-                       FontSize="30" Foreground="White" FontFamily="SourceSansPro"/>
+
 
             <!-- Murray Case Sells Swim Complex Text -->
             <TextBlock x:Name="MurrayCaseText" Text="Murray Case Sells Swim Complex" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-236,586,0,0" 
@@ -106,38 +108,42 @@
                 <LineBreak/>
                 <Run Text="Saturday: 10AM - 6PM"/>
             </TextBlock>
+            <Rectangle HorizontalAlignment="Left" Height="75" Margin="14,425,0,0" Stroke="Black" VerticalAlignment="Top" Width="523" Fill="#E5000000" RadiusX="20" RadiusY="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="14,443,0,0" TextWrapping="Wrap" Text="Locations and Hours Of Operations" VerticalAlignment="Top" Height="37" Width="523" Foreground="White" FontSize="30" TextAlignment="Center" LineHeight="6"/>
         </Grid>
 
         <!-- FacilitiesPageNavTop -->
-        <Grid x:Name="FacilitiesPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="100">
+        <Grid x:Name="FacilitiesPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="100" Background="#FF841617">
             <!-- FHomeIcon Button -->
-            <Button x:Name="FHomeIcon" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
-
+            <Button x:Name="FHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070">
+                <Button.Background>
+                    <ImageBrush ImageSource="/oufitreclogocrop.png"/>
+                </Button.Background>
+            </Button>
             <!-- FSIB Button -->
-            <Button x:Name="FSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,0,0,0"/>
-
+            <Button x:Name="HPSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1100,0,0,0" Height="50" Width="115" Background="White" BorderBrush="White" Foreground="#00000000"/>
             <!-- Sign In Text -->
-            <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0" 
-                       FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
+            <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1118,0,0,0" 
+           FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
         </Grid>
 
         <!-- FacilitiesPageBottomNav -->
-        <Grid x:Name="FacilitiesPageBottomNav" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="150">
+        <Grid x:Name="FacilitiesPageBottomNav" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="90" Background="#FF841617">
             <!-- WhiteOULogo -->
-            <Image x:Name="WhiteOULogo" Source="whiteoulogo.png" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+            <Image x:Name="FWhiteOULogo" Source="/whiteoulogo (1).png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,5,0,0" Height="79" Width="73"/>
 
             <!-- Fitness + Recreation Text -->
-            <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-215,972,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+            <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,5,0,0" 
+           FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
 
             <!-- Address Text -->
-            <TextBlock x:Name="AddressText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-215,1003,0,0" 
-                       FontSize="16" Foreground="White" FontFamily="SourceSansPro">
-                <Run Text="1401 Asp Avenue, Room 170"/>
-                <LineBreak/>
-                <Run Text="Norman, OK 73019"/>
-                <LineBreak/>
-                <Run Text="(405) 325-0311"/>
+            <TextBlock x:Name="AddressText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,30,0,0" 
+           FontSize="16" Foreground="White" FontFamily="SourceSansPro">
+    <Run Text="1401 Asp Avenue, Room 170"/>
+    <LineBreak/>
+    <Run Text="Norman, OK 73019"/>
+    <LineBreak/>
+    <Run Text="(405) 325-0311"/>
             </TextBlock>
         </Grid>
     </Grid>
