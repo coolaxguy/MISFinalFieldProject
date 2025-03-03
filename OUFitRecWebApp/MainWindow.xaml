@@ -24,9 +24,9 @@
         </Grid>
 
         <!-- MainWindowBottomNav -->
-        <Grid x:Name="MainWindowBottomNav" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="90" Background="#FF841617">
+        <Grid x:Name="LIWhiteOULogo" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="90" Background="#FF841617">
             <!-- WhiteOULogo -->
-            <Image x:Name="WhiteOULogo" Source="/whiteoulogo (1).png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,5,0,0" Height="79" Width="73"/>
+            <Image x:Name="HPWhiteOULogo" Source="/whiteoulogo (1).png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,5,0,0" Height="79" Width="73"/>
 
             <!-- Fitness + Recreation Text -->
             <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,5,0,0" 
