@@ -14,82 +14,83 @@
                        FontSize="36" FontWeight="Bold" Foreground="Black" FontFamily="SourceSansPro"/>
 
             <!-- F45 Text -->
-            <TextBlock x:Name="F45Text" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,211,0,0" 
-                       FontSize="36" FontWeight="Bold" Foreground="Black" FontFamily="SourceSansPro">
+            <TextBlock x:Name="F45Text" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,211,0,0" 
+                       FontSize="36" FontWeight="Bold" Foreground="Black" FontFamily="SourceSansPro" Width="1030" Height="88">
                 <Run Text="F45"/>
                 <LineBreak/>
-                <Run Text="Must maintain an active FIT+REC membership in addition to F45 membership. Join the F45 movement! F45 is a 45-minute circuit style workout focusing on functional movement and a total body challenge. Team Training - Life Changing!" 
+                <Run Text="Must maintain an active FIT+REC membership in addition to F45 membership. Join the F45 movement!" 
                      FontSize="18" FontWeight="Normal"/>
             </TextBlock>
 
             <!-- Fit Pass Text -->
-            <TextBlock x:Name="FitPassText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,311,0,0" 
-                       FontSize="36" FontWeight="Bold" Foreground="Black" FontFamily="SourceSansPro">
+            <TextBlock x:Name="FitPassText" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,311,0,0" 
+                       FontSize="36" FontWeight="Bold" Foreground="Black" FontFamily="SourceSansPro" Width="1030" Height="88">
                 <Run Text="Fit Pass"/>
                 <LineBreak/>
-                <Run Text="Join your OU FIT+REC family and allow us to support your fitness goals and help you stay connected. Enjoy unlimited access to a variety of FIT classes, such as Yoga, Zumba®, Cycling, Barre, and more!" 
+                <Run Text="Join your OU FIT+REC family and allow us to support your fitness goals and help you stay connected." 
                      FontSize="18" FontWeight="Normal"/>
             </TextBlock>
 
             <!-- Fit Pass Plus Text -->
-            <TextBlock x:Name="FitPassPlusText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,411,0,0" 
-                       FontSize="36" FontWeight="Bold" Foreground="Black" FontFamily="SourceSansPro">
+            <TextBlock x:Name="FitPassPlusText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,406,0,0" 
+                       FontSize="36" FontWeight="Bold" Foreground="Black" FontFamily="SourceSansPro" Height="100" Width="1022">
                 <Run Text="Fit Pass Plus"/>
                 <LineBreak/>
-                <Run Text="Join your OU FIT+REC family and allow us to support your fitness goals and help you stay connected! Enjoy unlimited access to both F45 and a variety of FIT classes." 
+                <Run Text="Join your OU FIT+REC family and allow us to support your fitness goals and help you stay connected! " 
                      FontSize="18" FontWeight="Normal"/>
             </TextBlock>
 
             <!-- Spring Sports Pass Text -->
-            <TextBlock x:Name="SpringSportsPassText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,509,0,0" 
-                       FontSize="36" FontWeight="Bold" Foreground="Black" FontFamily="SourceSansPro">
+            <TextBlock x:Name="SpringSportsPassText" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,506,0,0" 
+                       FontSize="36" FontWeight="Bold" Foreground="Black" FontFamily="SourceSansPro" Height="100" Width="1028">
                 <Run Text="Spring Sports Pass"/>
                 <LineBreak/>
-                <Run Text="Currently Enrolled Students at OU-Norman, OU HSC, and OU Tulsa campuses at the University of Oklahoma are able to purchase a membership to Fitness and Recreation Intramural Sports for $20. Contact dewhirst@ou.edu for more information or eligiblity requirements." 
+                <Run Text="Currently Enrolled Students at OU-Norman, OU HSC, and OU Tulsa campuses at the University of Oklahoma are able to purchase."
                      FontSize="18" FontWeight="Normal"/>
             </TextBlock>
 
             <!-- Buttons -->
-            <Button x:Name="FPPB" Content="Fit Pass Plus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,411,0,0" 
-                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
-            <Button x:Name="F45B" Content="F45" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,211,0,0" 
-                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
-            <Button x:Name="FPB" Content="Fit Pass" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,311,0,0" 
-                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
-            <Button x:Name="SSPB" Content="Spring Sports Pass" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,509,0,0" 
-                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
+            <Button x:Name="MB1" HorizontalAlignment="Left" Margin="125,204,0,0" VerticalAlignment="Top" Height="102" Width="1030" BorderBrush="Black" Background="#00DDDDDD"/>
+            <Button x:Name="MB2" HorizontalAlignment="Center" Margin="0,304,0,0" VerticalAlignment="Top" Height="102" Width="1030" BorderBrush="Black" Background="#00DDDDDD"/>
+            <Button x:Name="MB3" HorizontalAlignment="Center" Margin="0,404,0,0" VerticalAlignment="Top" Height="102" Width="1030" BorderBrush="Black" Background="#00DDDDDD"/>
+            <Button x:Name="MB4" HorizontalAlignment="Center" Margin="0,504,0,0" VerticalAlignment="Top" Height="102" Width="1030" BorderBrush="Black" Background="#00DDDDDD"/>
         </Grid>
 
         <!-- MemberPageNavTop -->
-        <Grid x:Name="MemberPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="100">
+        <Grid x:Name="MemberPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="90" Background="#FF841617">
             <!-- MHomeIcon Button -->
-            <Button x:Name="MHomeIcon" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
-
+            <Button x:Name="MHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070">
+                <Button.Background>
+                    <ImageBrush ImageSource="/oufitreclogocrop.png"/>
+                </Button.Background>
+            </Button>
             <!-- MSIB Button -->
-            <Button x:Name="MSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,0,0,0"/>
+            <Button x:Name="MSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1100,0,0,0" Height="50" Width="115" Background="White" BorderBrush="White" Foreground="#00000000"/>
+
 
             <!-- Sign In Text -->
-            <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0" 
+            <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1118,0,0,0" 
                        FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
         </Grid>
 
         <!-- MemberPageBottomNav -->
-        <Grid x:Name="MemberPageBottomNav" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="150">
+        <Grid x:Name="MemberPageBottomNav" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="90" Background="#FF841617">
             <!-- WhiteOULogo -->
-            <Image x:Name="WhiteOULogo" Source="whiteoulogo.png" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+            <Image x:Name="HPWhiteOULogo" Source="/whiteoulogo (1).png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,5,0,0" Height="79" Width="73"/>
 
             <!-- Fitness + Recreation Text -->
-            <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="187,690,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+            <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,5,0,0" 
+           FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+
 
             <!-- Address Text -->
-            <TextBlock x:Name="AddressText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="187,717,0,0" 
-                       FontSize="16" Foreground="White" FontFamily="SourceSansPro">
-                <Run Text="1401 Asp Avenue, Room 170"/>
-                <LineBreak/>
-                <Run Text="Norman, OK 73019"/>
-                <LineBreak/>
-                <Run Text="(405) 325-0311"/>
+            <TextBlock x:Name="AddressText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,30,0,0" 
+            FontSize="16" Foreground="White" FontFamily="SourceSansPro">
+     <Run Text="1401 Asp Avenue, Room 170"/>
+     <LineBreak/>
+     <Run Text="Norman, OK 73019"/>
+     <LineBreak/>
+     <Run Text="(405) 325-0311"/>
             </TextBlock>
         </Grid>
     </Grid>
