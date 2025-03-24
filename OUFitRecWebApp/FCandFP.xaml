@@ -68,7 +68,7 @@
             <!-- FitPassPageNavTop -->
             <Grid x:Name="FitPassPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="90" Background="#FF841617">
                 <!-- FCHomeIcon Button -->
-                <Button x:Name="FCHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070">
+                <Button x:Name="FCHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070" Click="FCHomeIcon_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="/oufitreclogocrop.png"/>
                     </Button.Background>

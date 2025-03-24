@@ -41,7 +41,7 @@
         <!-- LogInPageNavTop -->
         <Grid x:Name="LogInPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="90" Background="#FF841617">
             <!-- LIHomeIcon Button -->
-            <Button x:Name="LIHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070">
+            <Button x:Name="LIHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070" Click="LIHomeIcon_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/oufitreclogocrop.png"/>
                 </Button.Background>

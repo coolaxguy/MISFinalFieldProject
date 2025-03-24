@@ -33,7 +33,7 @@
             <!-- IMPageNavTop -->
             <Grid x:Name="IMPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="90" Background="#FF841617">
                 <!-- IMHomeIcon Button -->
-                <Button x:Name="IMHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070">
+                <Button x:Name="IMHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070" Click="IMHomeIcon_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="/oufitreclogocrop.png"/>
                     </Button.Background>

@@ -59,7 +59,7 @@
         <!-- MemberPageNavTop -->
         <Grid x:Name="MemberPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="90" Background="#FF841617">
             <!-- MHomeIcon Button -->
-            <Button x:Name="MHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070">
+            <Button x:Name="MHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070" Click="MHomeIcon_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="/oufitreclogocrop.png"/>
                 </Button.Background>

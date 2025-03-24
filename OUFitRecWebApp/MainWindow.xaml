@@ -10,7 +10,7 @@
         <!-- MainWindowNavTop -->
         <Grid x:Name="MainWindowNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="100" Background="#FF841617">
             <!-- HPSIB Button -->
-            <Button x:Name="HPSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1100,0,0,0" Height="50" Width="115" Background="White" BorderBrush="White" Foreground="#00000000"/>
+            <Button x:Name="HPSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1100,0,0,0" Height="50" Width="115" Background="White" BorderBrush="White" Foreground="#00000000" Click="HPSIB_Click"/>
 
             <!-- Sign In Text -->
             <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1118,0,0,0" 
@@ -46,17 +46,17 @@
         <!-- MainWindow -->
         <Grid x:Name="HomePage" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <!-- HPFE Button -->
-            <Button x:Name="HPFE" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,556,0,0" Height="150" Width="150"/>
+            <Button x:Name="HPFE" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,556,0,0" Height="150" Width="150" Click="HPFE_Click"/>
 
             <!-- HPFPE Button -->
-            <Button x:Name="HPFPE" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1000,556,0,0" Height="150" Width="150"/>
+            <Button x:Name="HPFPE" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1000,556,0,0" Height="150" Width="150" Click="HPFPE_Click"/>
 
             <!-- HPIME Button -->
-            <Button x:Name="HPIME" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,556,0,0" Height="150" Width="150">
+            <Button x:Name="HPIME" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,556,0,0" Height="150" Width="150" Click="HPIME_Click">
             </Button>
 
             <!-- HPME Button -->
-            <Button x:Name="HPME" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="700,556,0,0" Height="150" Width="150"/>
+            <Button x:Name="HPME" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="700,556,0,0" Height="150" Width="150" Click="HPME_Click"/>
 
             <!-- INTRAMURAL SPORTS Text -->
             <TextBlock x:Name="IntramuralSportsText" Text="IM SPORTS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1028,658,0,0" 
@@ -97,7 +97,7 @@
             <TextBox HorizontalAlignment="Left" Margin="33,313,0,0" TextWrapping="Wrap" Text="Fitness and Recreation provides diverse programs, services, and educational opportunities to enhance the lifelong health and wellness of the university community." VerticalAlignment="Top" Width="495" Height="110" Background="Transparent" BorderBrush="#00ABADB3" SelectionBrush="#000078D7" Foreground="White" FontSize="20"/>
 
             <!-- View Facilities Text -->
-            <Button Content="View Facilities" HorizontalAlignment="Left" Margin="33,425,0,0" VerticalAlignment="Top" Height="35" Width="160" Background="#FF841617" BorderBrush="#FF841617" Foreground="White" FontWeight="Bold" FontSize="18"/>
+            <Button Content="View Facilities" HorizontalAlignment="Left" Margin="33,425,0,0" VerticalAlignment="Top" Height="35" Width="160" Background="#FF841617" BorderBrush="#FF841617" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button_Click"/>
 
 
         </Grid>
