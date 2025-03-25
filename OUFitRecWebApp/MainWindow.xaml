@@ -10,11 +10,13 @@
         <!-- MainWindowNavTop -->
         <Grid x:Name="MainWindowNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="100" Background="#FF841617">
             <!-- HPSIB Button -->
-            <Button x:Name="HPSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1100,0,0,0" Height="50" Width="115" Background="White" BorderBrush="White" Foreground="#00000000" Click="HPSIB_Click"/>
+            <Button x:Name="HPSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1100,0,0,0" Height="50" Width="115" Background="White" BorderBrush="White" Foreground="#00000000" Click="HPSIB_Click">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
+                </StackPanel>
+            </Button>
 
-            <!-- Sign In Text -->
-            <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1118,0,0,0" 
-                       FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
+
             <!-- HPHomeIcon Button -->
             <Button x:Name="HPHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070">
                 <Button.Background>
@@ -46,40 +48,36 @@
         <!-- MainWindow -->
         <Grid x:Name="HomePage" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <!-- HPFE Button -->
-            <Button x:Name="HPFE" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,556,0,0" Height="150" Width="150" Click="HPFE_Click"/>
+            <Button x:Name="HPFE" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,556,0,0" Height="150" Width="150" Click="HPFE_Click">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image HorizontalAlignment="Center" Height="80" Width="80" Source="/rec.png"/>
+                    <TextBlock x:Name="FacilitiesText" Text="FACILITIES" FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Button>
 
             <!-- HPFPE Button -->
-            <Button x:Name="HPFPE" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1000,556,0,0" Height="150" Width="150" Click="HPFPE_Click"/>
+            <Button x:Name="HPFPE" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1000,556,0,0" Height="150" Width="150" Click="HPFPE_Click">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image x:Name="IMPng" Source="/impng.png" HorizontalAlignment="Left"  Width="80" Height="80"/>
+                    <TextBlock x:Name="IntramuralSportsText" Text="IM SPORTS" FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Button>
 
             <!-- HPIME Button -->
             <Button x:Name="HPIME" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,556,0,0" Height="150" Width="150" Click="HPIME_Click">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image HorizontalAlignment="Center" Height="80" VerticalAlignment="Top" Width="80" Source="/member-removebg-preview.png"/>
+                    <TextBlock x:Name="MembershipsText" Text="MEMBERSHIPS" FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro" HorizontalAlignment="Center"/>
+                </StackPanel>
             </Button>
 
             <!-- HPME Button -->
-            <Button x:Name="HPME" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="700,556,0,0" Height="150" Width="150" Click="HPME_Click"/>
-
-            <!-- INTRAMURAL SPORTS Text -->
-            <TextBlock x:Name="IntramuralSportsText" Text="IM SPORTS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1028,658,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
-
-            <!-- FACILITIES Text -->
-            <TextBlock x:Name="FacilitiesText" Text="FACILITIES" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="131,653,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
-
-            <!-- MEMBERSHIPS Text -->
-            <TextBlock x:Name="MembershipsText" Text="MEMBERSHIPS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="411,653,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
-
-            <!-- FIT PASS CLASSES Text -->
-            <TextBlock x:Name="FitPassClassesText" Text="FIT CLASSES" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="723,653,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
-
-            <!-- Icons -->
-            <Image x:Name="FitClassPng" Source="/recpng.png" HorizontalAlignment="Left" Margin="735,568,0,211" Width="80" Height="80"/>
-            <Image x:Name="IMPng" Source="/impng.png" HorizontalAlignment="Left" Margin="1035,568,0,216" Width="80" Height="80"/>
-            <Image HorizontalAlignment="Left" Height="80" Margin="435,568,0,0" VerticalAlignment="Top" Width="80" Source="/member-removebg-preview.png"/>
-            <Image HorizontalAlignment="Left" Height="80" Margin="135,568,0,0" VerticalAlignment="Top" Width="80" Source="/rec.png"/>
-
+            <Button x:Name="HPME" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="700,556,0,0" Height="150" Width="150" Click="HPME_Click">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image x:Name="FitClassPng" Source="/recpng.png" HorizontalAlignment="Center" Width="80" Height="80"/>
+                    <TextBlock x:Name="FitPassClassesText" Text="FIT CLASSES" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+                </StackPanel>
+            </Button>
 
             <!-- Background Image -->
             <Rectangle HorizontalAlignment="Center" Height="400" Margin="0,100,0,0" Stroke="White" VerticalAlignment="Top" Width="1280">

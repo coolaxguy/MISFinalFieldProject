@@ -30,5 +30,12 @@ namespace OUFitRecWebApp
             main.Show();
             this.Close();
         }
+
+        private void MSIB_Click(object sender, RoutedEventArgs e)
+        {
+            LogInPage logIn = new LogInPage();
+            logIn.Show();
+            this.Close();
+        }
     }
 }

@@ -8,7 +8,10 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
+                        <Grid>
                         <Ellipse Fill="#841617" Stroke="#841617" StrokeThickness="1"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
@@ -18,9 +21,10 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border Background="White" BorderBrush="White" BorderThickness="1" CornerRadius="30">
+                        <Grid>
+                            <Border Background="White" BorderBrush="White" BorderThickness="1" CornerRadius="30"/>
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Border>
+                            </Grid>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>

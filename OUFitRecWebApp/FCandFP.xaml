@@ -74,11 +74,11 @@
                     </Button.Background>
                 </Button>
                 <!-- FCSIB Button -->
-                <Button x:Name="HPSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1100,0,0,0" Height="50" Width="115" Background="White" BorderBrush="White" Foreground="#00000000"/>
-
-                <!-- Sign In Text -->
-                <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1118,0,0,0" 
-                       FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
+                <Button x:Name="HPSIB" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="1100,0,0,0" Height="50" Width="115" Background="White" BorderBrush="White" Foreground="#00000000" Click="HPSIB_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock x:Name="SignInText" Text="Sign In" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="24" FontWeight="Bold" Foreground="#841617" FontFamily="SourceSansPro"/>
+                    </StackPanel>
+                </Button>
             </Grid>
 
             <!-- FitPassPageBottomNav -->
