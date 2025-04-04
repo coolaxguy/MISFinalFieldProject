@@ -1,1 +1,1 @@
-﻿select * from home;
+﻿select * from Home
