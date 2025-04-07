@@ -50,15 +50,15 @@
         <Rectangle HorizontalAlignment="Left" Height="160" Margin="31,507,0,0" Stroke="Black" VerticalAlignment="Top" Width="406"/>
         <Rectangle HorizontalAlignment="Center" Height="160" Margin="0,507,0,0" Stroke="Black" VerticalAlignment="Top" Width="406"/>
         <Rectangle HorizontalAlignment="Left" Height="160" Margin="843,507,0,0" Stroke="Black" VerticalAlignment="Top" Width="406"/>
-        <TextBlock x:Name="IM1" HorizontalAlignment="Left" Height="155" Margin="31,187,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="401" FontSize="20"/>
-        <TextBlock x:Name="IM2" HorizontalAlignment="Left" Height="155" Margin="442,187,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="401" FontSize="20"/>
-        <TextBlock x:Name="IM3" HorizontalAlignment="Left" Height="155" Margin="848,187,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="401" FontSize="20"/>
-        <TextBlock x:Name="IM4" HorizontalAlignment="Left" Height="155" Margin="31,350,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="401" FontSize="20"/>
-        <TextBlock x:Name="IM5" HorizontalAlignment="Left" Height="155" Margin="442,352,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="401" FontSize="20"/>
-        <TextBlock x:Name="IM6" HorizontalAlignment="Left" Height="155" Margin="848,347,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="401" FontSize="20"/>
-        <TextBlock x:Name="IM7" HorizontalAlignment="Left" Height="154" Margin="36,510,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="401" FontSize="20"/>
-        <TextBlock x:Name="IM8" HorizontalAlignment="Left" Height="155" Margin="442,512,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="401" FontSize="20"/>
-        <TextBlock x:Name="IM9" HorizontalAlignment="Left" Height="155" Margin="848,510,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="401" FontSize="20"/>
+        <TextBlock x:Name="IM1" HorizontalAlignment="Left" Height="155" Margin="31,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="20"/>
+        <TextBlock x:Name="IM2" HorizontalAlignment="Left" Height="155" Margin="442,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="20"/>
+        <TextBlock x:Name="IM3" HorizontalAlignment="Left" Height="155" Margin="848,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="20"/>
+        <TextBlock x:Name="IM4" HorizontalAlignment="Left" Height="155" Margin="31,350,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="20"/>
+        <TextBlock x:Name="IM5" HorizontalAlignment="Left" Height="155" Margin="442,352,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="20"/>
+        <TextBlock x:Name="IM6" HorizontalAlignment="Left" Height="155" Margin="848,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="20"/>
+        <TextBlock x:Name="IM7" HorizontalAlignment="Left" Height="154" Margin="36,510,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="20"/>
+        <TextBlock x:Name="IM8" HorizontalAlignment="Left" Height="155" Margin="442,512,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="20"/>
+        <TextBlock x:Name="IM9" HorizontalAlignment="Left" Height="155" Margin="848,510,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" FontSize="20"/>
         <TextBlock HorizontalAlignment="Left" Height="67" Margin="174,95,0,0" TextWrapping="Wrap" Text="IM Sport List" VerticalAlignment="Top" Width="938" FontSize="48" FontWeight="Bold" TextAlignment="Center"/>
         <Button Content="Return to IM Page" HorizontalAlignment="Left" Height="34" Margin="31,107,0,0" VerticalAlignment="Top" Width="172" Foreground="White" BorderBrush="#FF841617" Background="#FF841617" FontSize="18" FontWeight="Bold" Click="Button_Click"/>
     </Grid>

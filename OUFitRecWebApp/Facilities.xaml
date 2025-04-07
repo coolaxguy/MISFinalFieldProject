@@ -5,47 +5,47 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OUFitRecWebApp"
         mc:Ignorable="d"
-        Title="Facilities" Height="1080" Width="1280">
+        Title="Facilities" Height="880" Width="1280">
     <Grid>
         <!-- FacilitiesPage Content -->
         <Grid x:Name="FacilitiesPageContent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <!-- Background Rectangles -->
-            <Rectangle x:Name="Rectangle1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,100,0,0" Width="1280" Height="425">
+            <Rectangle x:Name="Rectangle1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,100,0,0" Width="1280" Height="290">
                 <Rectangle.Fill>
                     <ImageBrush ImageSource="/pool.jpg"/>
                 </Rectangle.Fill>
             </Rectangle>
 
-            <Rectangle HorizontalAlignment="Left" Height="75" Margin="14,425,0,0" Stroke="Black" VerticalAlignment="Top" Width="523" Fill="#E5000000" RadiusX="20" RadiusY="20"/>
+            <Rectangle HorizontalAlignment="Left" Height="75" Margin="14,279,0,0" Stroke="Black" VerticalAlignment="Top" Width="523" Fill="#E5000000" RadiusX="20" RadiusY="20"/>
 
-            <Rectangle HorizontalAlignment="Left" Height="385" Margin="34,565,0,0" Stroke="Black" VerticalAlignment="Top" Width="390" Fill="#FFC2BCBC"/>
+            <Rectangle HorizontalAlignment="Left" Height="385" Margin="29,390,0,0" Stroke="Black" VerticalAlignment="Top" Width="390" Fill="#FFC2BCBC"/>
 
-            <Rectangle HorizontalAlignment="Left" Height="385" Margin="880,565,0,0" Stroke="Black" VerticalAlignment="Top" Width="390" Fill="#FFC2BCBC"/>
+            <Rectangle HorizontalAlignment="Left" Height="385" Margin="875,390,0,0" Stroke="Black" VerticalAlignment="Top" Width="390" Fill="#FFC2BCBC"/>
 
-            <Rectangle HorizontalAlignment="Left" Height="385" Margin="424,565,0,0" Stroke="Black" VerticalAlignment="Top" Width="456" Fill="#FFC2BCBC"/>
+            <Rectangle HorizontalAlignment="Left" Height="385" Margin="419,390,0,0" Stroke="Black" VerticalAlignment="Top" Width="456" Fill="#FFC2BCBC"/>
 
 
             <!-- Locations and Hours Of Operations Text -->
-            <TextBlock HorizontalAlignment="Left" Margin="14,443,0,0" TextWrapping="Wrap" Text="Locations and Hours Of Operations" VerticalAlignment="Top" Height="37" Width="523" Foreground="White" FontSize="30" TextAlignment="Center" LineHeight="6"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,297,0,0" TextWrapping="Wrap" Text="Locations and Hours Of Operations" VerticalAlignment="Top" Height="37" Width="523" Foreground="White" FontSize="30" TextAlignment="Center" LineHeight="6"/>
 
 
             <!-- Murray Case Sells Swim Complex Text -->
-            <TextBlock x:Name="MurrayCaseText" Text="Murray Case Sells Swim Complex" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,585,0,0" 
+            <TextBlock x:Name="MurrayCaseText" Text="Murray Case Sells Swim Complex" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,402,0,0" 
                        FontSize="24" Foreground="Black" FontFamily="SourceSansPro"/>
 
             <!-- Recreational Fields Text -->
-            <TextBlock x:Name="RecreationalFieldsText" Text="Recreational Fields" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,584,0,0" 
+            <TextBlock x:Name="RecreationalFieldsText" Text="Recreational Fields" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,402,0,0" 
                        FontSize="25" Foreground="Black" FontFamily="SourceSansPro"/>
 
             <!-- Sarkeys Fitness Center Text -->
-            <TextBlock x:Name="SarkeysFitnessText" Text="Sarkeys Fitness Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="953,585,0,0" 
+            <TextBlock x:Name="SarkeysFitnessText" Text="Sarkeys Fitness Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="948,402,0,0" 
                        FontSize="25" Foreground="Black" FontFamily="SourceSansPro"/>
-            <TextBlock x:Name="MCS1" HorizontalAlignment="Left" Height="122" Margin="60,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="MCS2" HorizontalAlignment="Left" Height="122" Margin="60,758,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="RF1" HorizontalAlignment="Left" Height="122" Margin="483,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="RF2" HorizontalAlignment="Left" Height="122" Margin="483,758,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="SF1" HorizontalAlignment="Left" Height="122" Margin="906,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="SF2" HorizontalAlignment="Left" Height="122" Margin="906,758,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="MCS1" HorizontalAlignment="Left" Height="122" Margin="60,460,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="MCS2" HorizontalAlignment="Left" Height="122" Margin="60,587,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="RF1" HorizontalAlignment="Center" Height="122" Margin="0,460,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="RF2" HorizontalAlignment="Center" Height="122" Margin="0,587,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="SF1" HorizontalAlignment="Left" Height="122" Margin="906,460,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="SF2" HorizontalAlignment="Left" Height="122" Margin="901,587,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
 
             <!-- Murray Case Sells Swim Complex Details -->
 
@@ -72,8 +72,12 @@
 
         <!-- FacilitiesPageBottomNav -->
         <Grid x:Name="FacilitiesPageBottomNav" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="90" Background="#FF841617">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="747*"/>
+                <ColumnDefinition Width="533*"/>
+            </Grid.ColumnDefinitions>
             <!-- WhiteOULogo -->
-            <Image x:Name="FWhiteOULogo" Source="/whiteoulogo (1).png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,5,0,0" Height="79" Width="73"/>
+            <Image x:Name="FWhiteOULogo" Source="/whiteoulogo (1).png" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="60,0,0,0" Height="79" Width="73"/>
 
             <!-- Fitness + Recreation Text -->
             <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,5,0,0" 

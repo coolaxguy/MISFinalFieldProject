@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Diagnostics;
 
+
 namespace OUFitRecWebApp
 {
     /// <summary>
@@ -52,5 +53,6 @@ namespace OUFitRecWebApp
                 { FileName = "https://play.fusionfamily.com/login?returnUrl=%2Fhome%2Fdashboard",
                     UseShellExecute = true });
         }
+        
     }
 }
