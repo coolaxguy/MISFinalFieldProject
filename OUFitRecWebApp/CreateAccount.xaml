@@ -1,0 +1,50 @@
+﻿<Window x:Class="OUFitRecWebApp.CreateAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OUFitRecWebApp"
+        mc:Ignorable="d"
+        Title="CreateAccount" Height="880" Width="1280">
+    <Grid>
+        <!-- MainWindowNavTop -->
+        <Grid x:Name="MainWindowNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="100" Background="#FF841617">
+            <!-- HPSIB Button -->
+
+
+            <!-- HPHomeIcon Button -->
+            <Button x:Name="CAHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070" Click="CAHomeIcon_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/oufitreclogocrop.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+        <!-- MainWindowBottomNav -->
+        <Grid x:Name="LIWhiteOULogo" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="90" Background="#FF841617">
+            <!-- WhiteOULogo -->
+            <Image x:Name="HPWhiteOULogo" Source="/whiteoulogo (1).png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,5,0,0" Height="79" Width="73"/>
+
+            <!-- Fitness + Recreation Text -->
+            <TextBlock x:Name="FitnessText" Text="Fitness + Recreation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,5,0,0" 
+               FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
+
+            <!-- Address Text -->
+            <TextBlock x:Name="AddressText" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,30,0,0" 
+               FontSize="16" Foreground="White" FontFamily="SourceSansPro">
+        <Run Text="1401 Asp Avenue, Room 170"/>
+        <LineBreak/>
+        <Run Text="Norman, OK 73019"/>
+        <LineBreak/>
+        <Run Text="(405) 325-0311"/>
+            </TextBlock>
+        </Grid>
+        <Rectangle HorizontalAlignment="Center" Height="398" Fill="LightGray" VerticalAlignment="Center" Width="774" RadiusY="20" RadiusX="20"/>
+        <TextBox x:Name="EmailCreate" HorizontalAlignment="Center" Height="41" Margin="0,372,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="554" FontSize="20"/>
+        <TextBox x:Name="PasswordCreate" HorizontalAlignment="Center" Height="41" Margin="0,470,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="554" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="36" Margin="363,336,0,0" TextWrapping="Wrap" Text="Enter Email Below" VerticalAlignment="Top" Width="506" FontSize="20" Foreground="#FF841617" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Height="36" Margin="363,434,0,0" TextWrapping="Wrap" Text="Create Password Below" VerticalAlignment="Top" Width="506" FontSize="20" Foreground="#FF841617" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Center" Height="53" Margin="0,258,0,0" TextWrapping="Wrap" Text="Create Account Below!" VerticalAlignment="Top" Width="688" FontSize="48" TextAlignment="Center" Foreground="#FF841617" FontWeight="Bold"/>
+        <Button Content="Register Account" HorizontalAlignment="Center" Height="69" Margin="0,538,0,0" VerticalAlignment="Top" Width="316" FontSize="20" FontWeight="Bold" Foreground="White" BorderBrush="#FF841617" Background="#FF841617" Click="Button_Click"/>
+    </Grid>
+</Window>

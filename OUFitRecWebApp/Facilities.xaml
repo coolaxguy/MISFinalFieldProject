@@ -38,86 +38,20 @@
                        FontSize="25" Foreground="Black" FontFamily="SourceSansPro"/>
 
             <!-- Sarkeys Fitness Center Text -->
-            <TextBlock x:Name="SarkeysFitnessText" Text="Sarkeys Fitness Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="900,570,0,0" 
+            <TextBlock x:Name="SarkeysFitnessText" Text="Sarkeys Fitness Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="953,570,0,0" 
                        FontSize="25" Foreground="Black" FontFamily="SourceSansPro"/>
+            <TextBlock x:Name="MCS1" HorizontalAlignment="Left" Height="122" Margin="60,636,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="MCS2" HorizontalAlignment="Left" Height="122" Margin="60,787,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="RF1" HorizontalAlignment="Left" Height="122" Margin="483,636,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="RF2" HorizontalAlignment="Left" Height="122" Margin="483,787,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="SF1" HorizontalAlignment="Left" Height="122" Margin="906,636,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="SF2" HorizontalAlignment="Left" Height="122" Margin="906,787,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="338" FontSize="20"/>
 
             <!-- Murray Case Sells Swim Complex Details -->
-            <TextBlock x:Name="MurrayCaseDetails" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,620,0,0" 
-                       FontSize="24" Foreground="Black" FontFamily="SourceSansPro">
-                <Run Text="1701 Asp Ave, Norman, OK 73072"/>
-                <LineBreak/>
-                <Run Text="Email: Fitrec@edu"/>
-                <LineBreak/>
-                <Run Text="Phone: 405-325-3053"/>
-                <LineBreak/>
-                <Run Text="Hours:"/>
-                <LineBreak/>
-                <Run Text="Sunday: 1PM - 6PM"/>
-                <LineBreak/>
-                <Run Text="Monday: 11AM - 5PM"/>
-                <LineBreak/>
-                <Run Text="Tuesday: 11AM - 5PM"/>
-                <LineBreak/>
-                <Run Text="Wednesday: 11AM - 5PM"/>
-                <LineBreak/>
-                <Run Text="Thursday: 11AM - 5PM"/>
-                <LineBreak/>
-                <Run Text="Friday: 11AM - 5PM"/>
-                <LineBreak/>
-                <Run Text="Saturday: 1PM - 5PM"/>
-            </TextBlock>
 
             <!-- Recreational Fields Details -->
-            <TextBlock x:Name="RecreationalFieldsDetails" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="467,620,0,0" 
-                       FontSize="24" Foreground="Black" FontFamily="SourceSansPro" Width="375">
-                <Run Text="300 Stinson St, Norman, OK 73072"/>
-                <LineBreak/>
-                <Run Text="Email: Fitrec@edu"/>
-                <LineBreak/>
-                <Run Text="Phone: 405-325-3053"/>
-                <LineBreak/>
-                <Run Text="Hours:"/>
-                <LineBreak/>
-                <Run Text="Sunday:"/>
-                <LineBreak/>
-                <Run Text="Monday:"/>
-                <LineBreak/>
-                <Run Text="Tuesday:"/>
-                <LineBreak/>
-                <Run Text="Wednesday:"/>
-                <LineBreak/>
-                <Run Text="Thursday:"/>
-                <LineBreak/>
-                <Run Text="Friday:"/>
-                <LineBreak/>
-                <Run Text="Saturday:"/>
-            </TextBlock>
 
             <!-- Sarkeys Fitness Center Details -->
-            <TextBlock x:Name="SarkeysFitnessDetails" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="900,620,0,0" 
-                       FontSize="24" Foreground="Black" FontFamily="SourceSansPro">
-                <Run Text="1401 Asp Ave, Norman, OK 73072"/>
-                <LineBreak/>
-                <Run Text="Email: Fitrec@edu"/>
-                <LineBreak/>
-                <Run Text="Phone: 405-325-3053"/>
-                <LineBreak/>
-                <Run Text="Hours:"/>
-                <LineBreak/>
-                <Run Text="Sunday: 2PM - 9PM"/>
-                <LineBreak/>
-                <Run Text="Monday: 6AM - 11PM"/>
-                <LineBreak/>
-                <Run Text="Tuesday: 6AM - 11PM"/>
-                <LineBreak/>
-                <Run Text="Wednesday: 6AM - 11PM"/>
-                <LineBreak/>
-                <Run Text="Thursday: 6AM - 11PM"/>
-                <LineBreak/>
-                <Run Text="Friday: 6AM - 9PM"/>
-                <LineBreak/>
-                <Run Text="Saturday: 10AM - 6PM"/>
-            </TextBlock>
         </Grid>
 
         <!-- FacilitiesPageNavTop -->

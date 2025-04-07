@@ -10,59 +10,13 @@
         <Grid>
             <!-- FitPassPage Content -->
             <Grid x:Name="FitPassPageContent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-                <!-- Fit Pass Image -->
+               
+                <DatePicker x:Name="FPDatePicker" Margin="154,296,137,206"/>
 
-                <!-- Fit Pass Classes Text -->
-                <Rectangle Height="100" Stroke="Black" Margin="154,1058,154,206" Fill="#CCC8C8C8"/>
-                <Rectangle Height="100" Stroke="Black" Margin="154,958,154,306" Fill="#CCC8C8C8"/>
-                <Rectangle Height="100" Stroke="Black" Margin="154,858,154,406" Fill="#CCC8C8C8"/>
-                <Rectangle Height="100" Stroke="Black" Margin="154,758,154,506" Fill="#CCC8C8C8"/>
-                <Rectangle Height="100" Stroke="Black" Margin="154,660,154,604" Fill="#CCC8C8C8"/>
-                <Rectangle Height="100" Stroke="Black" Margin="154,560,154,704" Fill="#CCC8C8C8"/>
-                <Rectangle Height="100" Stroke="Black" Margin="154,458,154,806" Fill="#CCC8C8C8"/>
-                <!-- Fit Pass Classes Text -->
                 <TextBlock x:Name="FitPassClassesText" Text="Fit Pass Classes" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="443,184,0,0" 
                        FontSize="58" FontWeight="Bold" Foreground="#161414" FontFamily="SourceSansPro"/>
 
-                <!-- Select Time Text -->
-                <ComboBox Margin="154,354,756,958"/>
-
-
-                <!-- Time Slots and Reserve Spot Buttons -->
-                <TextBlock x:Name="TimeSlot1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,475,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
-                <Button x:Name="FPB1" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,475,0,0" 
-                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
-
-                <TextBlock x:Name="TimeSlot2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,575,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
-                <Button x:Name="FPB2" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,575,0,0" 
-                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
-
-                <TextBlock x:Name="TimeSlot3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,675,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
-                <Button x:Name="FPB3" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,675,0,0" 
-                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
-
-                <TextBlock x:Name="TimeSlot4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,775,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
-                <Button x:Name="FPB4" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,775,0,0" 
-                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
-
-                <TextBlock x:Name="TimeSlot5" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,875,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
-                <Button x:Name="FPB5" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,875,0,0" 
-                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
-
-                <TextBlock x:Name="TimeSlot6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,975,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
-                <Button x:Name="FPB6" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,975,0,0" 
-                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
-
-                <TextBlock x:Name="TimeSlot7" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,1075,0,0" 
-                       FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
-                <Button x:Name="FPB7" Content="Reserve Spot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,1075,0,0" 
-                    Width="200" Height="50" FontSize="18" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
+              
             </Grid>
 
             <!-- FitPassPageNavTop -->
