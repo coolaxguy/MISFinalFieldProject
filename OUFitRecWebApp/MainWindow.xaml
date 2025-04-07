@@ -97,7 +97,7 @@
             <!-- View Facilities Text -->
             <Button Content="View Facilities" HorizontalAlignment="Left" Margin="33,425,0,0" VerticalAlignment="Top" Height="35" Width="160" Background="#FF841617" BorderBrush="#FF841617" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button_Click"/>
             <Rectangle HorizontalAlignment="Left" Height="105" Margin="729,365,0,0" Stroke="Black" VerticalAlignment="Top" Width="515" Fill="#E5000000"/>
-            <TextBlock x:Name="NewNews" HorizontalAlignment="Left" Height="102" Margin="749,368,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="476" Foreground="White" FontSize="20"/>
+            <TextBlock x:Name="NewNews" HorizontalAlignment="Left" Height="102" Margin="749,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="476" Foreground="White" FontSize="20"/>
             <Button x:Name="F45Button" Style="{StaticResource EllipseButtonStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="836,556,0,0" Height="150" Width="150" Click="F45Button_Click">
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                     <Image x:Name="FitClassPng1" Source="/recpng.png" HorizontalAlignment="Center" Width="80" Height="80"/>
