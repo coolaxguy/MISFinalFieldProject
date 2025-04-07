@@ -66,5 +66,12 @@ namespace OUFitRecWebApp
             logInPage.Show();
             this.Close();
         }
+
+        private void F45Button_Click(object sender, RoutedEventArgs e)
+        {
+            F45 f45 = new F45();
+            f45.Show();
+            this.Close();
+        }
     }
 }

@@ -38,5 +38,12 @@ namespace OUFitRecWebApp
             logInPage.Show();
             this.Close();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            IMPage iMPage = new IMPage();
+            iMPage.Show();
+            this.Close();
+        }
     }
 }

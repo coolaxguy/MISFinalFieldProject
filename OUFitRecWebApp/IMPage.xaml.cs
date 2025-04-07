@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace OUFitRecWebApp
 {
@@ -43,6 +44,13 @@ namespace OUFitRecWebApp
             IMSportsList imSportsList = new IMSportsList();
             imSportsList.Show();
             this.Close();
+        }
+
+        private void JIMB_Click(object sender, RoutedEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo
+                { FileName = "https://play.fusionfamily.com/login?returnUrl=%2Fhome%2Fdashboard",
+                    UseShellExecute = true });
         }
     }
 }
