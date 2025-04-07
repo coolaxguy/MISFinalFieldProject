@@ -36,7 +36,7 @@
             <!-- Log In Button (LILIB) -->
             <Button x:Name="LILIB" Content="Log In" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="365,481,0,0" 
                     Width="200" Height="50" FontSize="36" FontWeight="Bold" Foreground="White" Background="#841617" FontFamily="SourceSansPro" />
-            <Button Content="Create Account" HorizontalAlignment="Left" Height="50" Margin="634,481,0,0" VerticalAlignment="Top" Width="266" BorderBrush="#FF841617" Foreground="White" Background="#FF841617" FontSize="36" FontWeight="Bold"/>
+            <Button Content="Create Account" HorizontalAlignment="Left" Height="50" Margin="634,481,0,0" VerticalAlignment="Top" Width="266" BorderBrush="#FF841617" Foreground="White" Background="#FF841617" FontSize="36" FontWeight="Bold" Click="Button_Click"/>
         </Grid>
 
         <!-- LogInPageNavTop -->

@@ -37,5 +37,12 @@ namespace OUFitRecWebApp
             logIn.Show();
             this.Close();
         }
+
+        private void VIMB_Click(object sender, RoutedEventArgs e)
+        {
+            IMSportsList imSportsList = new IMSportsList();
+            imSportsList.Show();
+            this.Close();
+        }
     }
 }

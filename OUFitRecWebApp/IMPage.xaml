@@ -19,7 +19,7 @@
 
                 <!-- VIEW IM SPORTS Button -->
                 <Button x:Name="VIMB" Content="VIEW IM SPORTS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="802,551,0,0" 
-                    Width="300" Height="60" FontSize="36" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro"/>
+                    Width="300" Height="60" FontSize="36" FontWeight="Bold" Background="#841617" Foreground="White" FontFamily="SourceSansPro" Click="VIMB_Click"/>
                 <!--Page Rectangles-->
                 <Rectangle HorizontalAlignment="Center" Height="272" Margin="0,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="1280">
                     <Rectangle.Fill>

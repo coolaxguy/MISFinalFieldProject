@@ -45,6 +45,7 @@
         <TextBlock HorizontalAlignment="Left" Height="36" Margin="363,336,0,0" TextWrapping="Wrap" Text="Enter Email Below" VerticalAlignment="Top" Width="506" FontSize="20" Foreground="#FF841617" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Height="36" Margin="363,434,0,0" TextWrapping="Wrap" Text="Create Password Below" VerticalAlignment="Top" Width="506" FontSize="20" Foreground="#FF841617" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Center" Height="53" Margin="0,258,0,0" TextWrapping="Wrap" Text="Create Account Below!" VerticalAlignment="Top" Width="688" FontSize="48" TextAlignment="Center" Foreground="#FF841617" FontWeight="Bold"/>
-        <Button Content="Register Account" HorizontalAlignment="Center" Height="69" Margin="0,538,0,0" VerticalAlignment="Top" Width="316" FontSize="20" FontWeight="Bold" Foreground="White" BorderBrush="#FF841617" Background="#FF841617" Click="Button_Click"/>
+        <Button Content="Register Account" HorizontalAlignment="Left" Height="69" Margin="363,535,0,0" VerticalAlignment="Top" Width="228" FontSize="20" FontWeight="Bold" Foreground="White" BorderBrush="#FF841617" Background="#FF841617" Click="Button_Click"/>
+        <Button x:Name="ReturnB" Content="Back to Log In Page" HorizontalAlignment="Left" Height="66" Margin="689,538,0,0" VerticalAlignment="Top" Width="228" Foreground="White" BorderBrush="#FF841617" Background="#FF841617" FontSize="20" FontWeight="Bold" Click="ReturnB_Click"/>
     </Grid>
 </Window>

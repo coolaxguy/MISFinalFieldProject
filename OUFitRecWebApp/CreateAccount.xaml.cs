@@ -37,5 +37,12 @@ namespace OUFitRecWebApp
             logInPage.Show();
             this.Close();
         }
+
+        private void ReturnB_Click(object sender, RoutedEventArgs e)
+        {
+            LogInPage logInPage = new LogInPage();
+            logInPage.Show();
+            this.Close();
+        }
     }
 }
