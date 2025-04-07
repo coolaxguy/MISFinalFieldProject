@@ -30,22 +30,22 @@
 
 
             <!-- Murray Case Sells Swim Complex Text -->
-            <TextBlock x:Name="MurrayCaseText" Text="Murray Case Sells Swim Complex" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,570,0,0" 
+            <TextBlock x:Name="MurrayCaseText" Text="Murray Case Sells Swim Complex" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,585,0,0" 
                        FontSize="24" Foreground="Black" FontFamily="SourceSansPro"/>
 
             <!-- Recreational Fields Text -->
-            <TextBlock x:Name="RecreationalFieldsText" Text="Recreational Fields" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,569,0,0" 
+            <TextBlock x:Name="RecreationalFieldsText" Text="Recreational Fields" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,584,0,0" 
                        FontSize="25" Foreground="Black" FontFamily="SourceSansPro"/>
 
             <!-- Sarkeys Fitness Center Text -->
-            <TextBlock x:Name="SarkeysFitnessText" Text="Sarkeys Fitness Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="953,570,0,0" 
+            <TextBlock x:Name="SarkeysFitnessText" Text="Sarkeys Fitness Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="953,585,0,0" 
                        FontSize="25" Foreground="Black" FontFamily="SourceSansPro"/>
             <TextBlock x:Name="MCS1" HorizontalAlignment="Left" Height="122" Margin="60,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="MCS2" HorizontalAlignment="Left" Height="122" Margin="60,787,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="MCS2" HorizontalAlignment="Left" Height="122" Margin="60,758,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
             <TextBlock x:Name="RF1" HorizontalAlignment="Left" Height="122" Margin="483,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="RF2" HorizontalAlignment="Left" Height="122" Margin="483,787,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="RF2" HorizontalAlignment="Left" Height="122" Margin="483,758,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
             <TextBlock x:Name="SF1" HorizontalAlignment="Left" Height="122" Margin="906,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="SF2" HorizontalAlignment="Left" Height="122" Margin="906,787,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="SF2" HorizontalAlignment="Left" Height="122" Margin="906,758,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
 
             <!-- Murray Case Sells Swim Complex Details -->
 
