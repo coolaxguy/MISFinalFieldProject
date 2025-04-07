@@ -40,12 +40,12 @@
             <!-- Sarkeys Fitness Center Text -->
             <TextBlock x:Name="SarkeysFitnessText" Text="Sarkeys Fitness Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="953,570,0,0" 
                        FontSize="25" Foreground="Black" FontFamily="SourceSansPro"/>
-            <TextBlock x:Name="MCS1" HorizontalAlignment="Left" Height="122" Margin="60,636,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="MCS2" HorizontalAlignment="Left" Height="122" Margin="60,787,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="RF1" HorizontalAlignment="Left" Height="122" Margin="483,636,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="RF2" HorizontalAlignment="Left" Height="122" Margin="483,787,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="SF1" HorizontalAlignment="Left" Height="122" Margin="906,636,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="338" FontSize="20"/>
-            <TextBlock x:Name="SF2" HorizontalAlignment="Left" Height="122" Margin="906,787,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="MCS1" HorizontalAlignment="Left" Height="122" Margin="60,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="MCS2" HorizontalAlignment="Left" Height="122" Margin="60,787,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="RF1" HorizontalAlignment="Left" Height="122" Margin="483,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="RF2" HorizontalAlignment="Left" Height="122" Margin="483,787,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="SF1" HorizontalAlignment="Left" Height="122" Margin="906,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
+            <TextBlock x:Name="SF2" HorizontalAlignment="Left" Height="122" Margin="906,787,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="20"/>
 
             <!-- Murray Case Sells Swim Complex Details -->
 
