@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OUFitRecWebApp"
         mc:Ignorable="d"
-        Title="F45" Height="1380" Width="1280">
+        Title="F45" Height="880" Width="1280">
     <Grid>
         <!-- FitPassPageNavTop -->
         <Grid x:Name="FitPassPageNavTop" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="90" Background="#FF841617">
@@ -41,7 +41,9 @@
 <Run Text="(405) 325-0311"/>
             </TextBlock>
         </Grid>
-        <TextBlock HorizontalAlignment="Center" Height="75" Margin="0,183,0,0" TextWrapping="Wrap" Text="F45 Classes" VerticalAlignment="Top" Width="305" FontSize="58" FontWeight="Bold"/>
-        <DatePicker HorizontalAlignment="Center" Height="846" Margin="0,285,0,0" VerticalAlignment="Top" Width="992"/>
+        <TextBlock HorizontalAlignment="Center" Height="75" Margin="0,124,0,0" TextWrapping="Wrap" Text="F45 Classes" VerticalAlignment="Top" Width="321" FontSize="58" FontWeight="Bold"/>
+        <DatePicker x:Name="F45DatePicker" HorizontalAlignment="Center" Height="80" Margin="0,206,0,0" VerticalAlignment="Top" Width="992" SelectedDateChanged="F45DatePicker_SelectedDateChanged"/>
+        <ListBox x:Name="F45ListBox" HorizontalAlignment="Center" Height="284" Margin="0,335,0,0" VerticalAlignment="Top" Width="992" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button x:Name="F45ClassTime" Content="Click to Sign Up for Selected Classes" HorizontalAlignment="Center" Height="64" Margin="0,660,0,0" VerticalAlignment="Top" Width="316" FontSize="16" FontWeight="Bold" Click="F45ClassTime_Click"/>
     </Grid>
 </Window>

@@ -17,6 +17,7 @@
             </Button>
 
 
+
             <!-- HPHomeIcon Button -->
             <Button x:Name="HPHomeIcon" Margin="40,9,1044,9" Foreground="#00000000" BorderBrush="#00707070">
                 <Button.Background>
@@ -104,6 +105,7 @@
                     <TextBlock x:Name="FitPassClassesText1" Text="F45 CLASSES" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="White" FontFamily="SourceSansPro"/>
                 </StackPanel>
             </Button>
+            <Button Content="View Profile" Style="{StaticResource RectangleButtonStyle}" HorizontalAlignment="Left" Margin="863,23,0,0" VerticalAlignment="Top" Height="53" Width="183" Background="White" BorderBrush="White" Foreground="#FF841617" FontSize="24" FontWeight="Bold" Click="Button_Click_1"/>
 
 
         </Grid>

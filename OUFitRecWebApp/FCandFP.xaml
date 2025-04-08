@@ -5,18 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OUFitRecWebApp"
         mc:Ignorable="d"
-        Title="FCandFP" Height="1380" Width="1280">
+        Title="FCandFP" Height="880" Width="1280">
     <Grid>
         <Grid>
             <!-- FitPassPage Content -->
             <Grid x:Name="FitPassPageContent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-               
-                <DatePicker x:Name="FPDatePicker" Margin="154,296,137,206"/>
 
-                <TextBlock x:Name="FitPassClassesText" Text="Fit Pass Classes" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="443,184,0,0" 
+                <DatePicker x:Name="FPDatePicker" Margin="146,187,146,599" SelectedDateChanged="FPDatePicker_SelectedDateChanged"/>
+
+                <TextBlock x:Name="FitPassClassesText" Text="Fit Pass Classes" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,112,0,0" 
                        FontSize="58" FontWeight="Bold" Foreground="#161414" FontFamily="SourceSansPro"/>
+                <ListBox x:Name="FPListBox" HorizontalAlignment="Center" Height="262" VerticalAlignment="Center" Width="988" d:ItemsSource="{d:SampleData ItemCount=5} "/>
+                <Button x:Name="ClassSIButton" Content="Sign Up for Selected Classes" HorizontalAlignment="Center" Height="108" Margin="0,610,0,0" VerticalAlignment="Top" Width="408" FontSize="24" FontWeight="Bold" Click="ClassSIButton_Click"/>
 
-              
+
             </Grid>
 
             <!-- FitPassPageNavTop -->
