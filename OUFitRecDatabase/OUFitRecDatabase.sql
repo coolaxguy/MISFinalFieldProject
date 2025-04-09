@@ -1,1 +1,1 @@
-﻿select * from account
+﻿select * from Account
